@@ -95,13 +95,16 @@
 
     <!-- Contact Us page -->
     <div id="contactus">
-        <section class="contact">
-            <h1>Contact Us</h1>
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email">
-            <input type="text" class="message" placeholder="Type your message here">
-            <button class="submit"> Send</button>
-        </section>
+        <form action="https://formsubmit.co/devanshsahni123@gmail.com" method="POST">
+            <section class="contact">
+                <h1>Contact Us</h1>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="email" placeholder="Email" name="email" required>
+                <input type="text" class="message" name="Message" placeholder="Type your message here">
+                <button type="submit"> Send</button>
+            </section>
+        </form>
     </div>
 
     <!-- Footer -->
