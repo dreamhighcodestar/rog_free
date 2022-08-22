@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/9aa6408b7e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home Page</title>
+</head> 
+
+<body>
+
+    <nav>
+        <!-- logo in nav bar -->
+        <div class="logo">
+            <span class="material-symbols-outlined">
+                self_improvement
+            </span>
+        </div>
+        
+        <!-- links in nav bar  -->
+        <ul class="navlinks">
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#ailment">Ailments</a></li>
+            <li> <a href="#contactus">Contact us</a></li>
+        </ul>
+
+        <!-- burger icon making -->
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+    </nav>
+
+    <script src="nav.js"></script>
+
+    <!-- text on home page -->
+    <header id="showcase">
+            <h1 > Rog-Free </h1>
+        <p>
+            Yoga helps you in forming perfect harmony between your body and your mind.
+        </p>
+        <a href="#ailment" class="button">Read more</a>
+    </header>
+
+    <!-- ailments page -->
+    <div id="ailment">
+        <section class="cards">
+            <h1>Select your ailment!</h1>
+            <div class="cue">
+                <!-- six boxes for six different ailments -->
+                <div class="box">
+                    <a href="">
+                    <img src="images/digestive.jpg" alt="digestive">
+                    <div class="dis">Digestive disorders</div>
+                    </a></div>
+
+                <div class="box">
+                    <a href="">
+                        <img src="images/heart.jpg" alt="heart Diseases">
+                        <div class="dis"> Heart problem</div>
+                    </a></div>
+                
+                <div class="box">
+                    <a href="">
+                    <img src="images/anxiety.jpg" alt="anxiety">
+                    <div class="dis"> Anxiety/panic </div>
+                </a></div>
+                
+                <div class="box">
+                    <a href="">
+                    <img src="images/asthma.jpg" alt="asthma">
+                    <div class="dis"> Asthma</div>
+                </a></div>
+                
+                <div class="box">
+                    <a href="">
+                    <img src="images/pain.jpg" alt="back pain">
+                    <div class="dis"> Joint pain</div>
+                </a></div>
+                
+                <div class="box">
+                    <a href="">
+                    <img src="images/diabetes.jpg" alt="diabetes">
+                    <div class="dis">Diabetes</div>
+                </a></div>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Contact Us page -->
+    <div id="contactus">
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <input type="text" class="message" placeholder="Type your message here">
+            <button class="submit"> Send</button>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Be a part of our community today.</p><br>
+    <!-- Links for instagram and facebook using google fonts -->
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    </footer>
+
+</body>
+
+</html>
