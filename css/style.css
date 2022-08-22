@@ -27,6 +27,7 @@ nav{
     min-height: 15vh;
     background-color: #c7ddcc;
     width: 100%;    
+    z-index: 1;
 }
 
 .navlinks{
@@ -44,6 +45,7 @@ nav{
     letter-spacing: 1px;
     font-size: 25px;
     font-weight: 700px;
+    color: #16123f;
 }
 
 .navlinks a:visited{
@@ -158,7 +160,7 @@ nav{
 
 
 .cards{
-    padding:100px 300px;
+    padding:100px 0px;
     display: flex;
     background-color: #8cbc97;
     height: fit-content;
@@ -175,32 +177,43 @@ nav{
 
 .cue{
     padding-top: 40px;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
+    width: 100%;
+    height: 400px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;    
+    /* flex-wrap: wrap; */
+    position: relative;
+    overflow-y: hidden;
+    justify-content: left;
+    align-items: center; 
+    scroll-behavior: smooth;   
 }
 
+.cue::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
 .cue img{
-    width: 200px;
-    height: 220px;
-    justify-content: center;
+    width: 100%;
+    height: 100%;
+    justify-content: left;
     align-items: center;
-    transition: all 0.5s ease-in-out;
+    overflow: auto;
+    /* transition: all 0.5s ease-in-out; */
 }
 
 .box:hover{
     cursor: pointer;
-    transform:scale(150%);
-    transition: transform 0.4s ease-in-out;
-    box-shadow: 2px 2px 30px 4px #19261c
+    /* transform:scale(150%);
+    transition: transform 0.4s ease-in-out; */
+    box-shadow: 2px 2px 10px 4px #2c3d30
 }
 
 .box{
-    height: 222px;
-    margin:20px;
+    height: 230px;
+    min-width: 200px;
+    margin: 20px;
     border:#3d5e45 0.5px groove;
+    overflow: hidden;
 }
 
 .box a:visited{
@@ -209,6 +222,7 @@ nav{
 
 .dis{
     position: absolute;
+    z-index: 0;
 }
 
 
@@ -228,7 +242,7 @@ nav{
     font-size: 40px;
 }
 
-.contact input{
+.contact input, .contact button, .contact textarea{
     font-size: 20px;
     justify-content: space-around;
     align-items: center;
@@ -239,10 +253,12 @@ nav{
 }
 
 .contact .message{
-    padding: 5px 80px 200px 5px;
+    padding: 5px 80px 100px 5px;
+    /* display: ; */
+    flex-wrap: nowrap;
 }
 
-.submit{
+.contact button{
     font-size: 25px;
     background-color: #abd699;
     color: #16123f;
@@ -251,6 +267,9 @@ nav{
     border: #16123f 1px solid;
 }
 
+.contact button:hover{
+    cursor: pointer;
+}
 
 .footer{
     display: flex;
@@ -262,6 +281,7 @@ nav{
 
 .footer a{
     padding-right: 4px;
+    color: #16123f;
 }
 .footer a:visited{
     color: #16123f;
