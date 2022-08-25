@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-height: 500px;
+    height: fit-content;
+    color: #ffffff;
+    padding: 10vw 5vw;
+    background-image:url('../images/yoga1.jpg');
+    background-size: cover;
+    border-bottom: 10px solid #75c9b76e;
+}
+
+.title #mainPage {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.title a{
+    color: #fff;
+}
+
+.title .diseaseTitle {
+    margin: 20px;
+    font-size: 45px;
+}
+
+.diseaseTitle p {
+    line-height: 50px;
+}
+
+.title a span:hover {
+    background-color: #fff;
+    color: #75c9b7;
+    border-radius: 30px;
+    padding: 1px 1px 7px 7px;
+    box-shadow: 0 0 12px 9px #fff;
+}
+
+.container{
+    color:#16123F;
+    padding: 6vw;
+    width: 100%;
+    background-color: #c7ddcc;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.intro div, .intro h3, .cure h2, .asana h2 {
+    padding-bottom: 30px;
+}
+
+.intro img {
+    display: block;
+    border: 8px solid #fff;
+    padding: 20px;
+    margin: 40px auto;
+    background-color: #75c9b75a;
+    max-width: 500px;
+    width: 100%;
+    max-height: 500px;
+}
+
+.cure {
+    padding: 50px 0;
+    margin: 20px 0;
+}
+
+.cure li, div li {
+    list-style: disc;
+    padding: 7px 0;
+    margin: 0 20px;
+}
+
+.asana {
+    padding: 50px 0;
+    margin: 20px 0;
+}
+
+.asanaCollection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 350px;
+    height: 100%;
+    width: 100%;
+}
+
+.asanaCollection .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin: 10px 0;
+    background-color: #75c9b74e;
+}
+
+.box img {
+    margin: 2vh;
+    max-width: 400px;
+    width: 100%;
+    min-height: 170px;
+    height: 100%;
+    border-radius: 20px;
+    border: 8px solid #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .box img {max-width: 300px;}
+  }
+
+.box span {
+    font-size: 22px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 1vw 1.5vw;
+    margin: 1vw;
+    background-color: #75c9b7;
+    transition: all 0.3s ease-in;
+}
+
+.box span a {
+    color: #16123F;
+    text-decoration: underline;
+}
+
+.box span:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
