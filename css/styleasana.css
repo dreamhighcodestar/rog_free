@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-height: 500px;
+    height: fit-content;
+    color: #ffffff;
+    padding: 10vw 5vw;
+    background-image:url('../images/yoga1.jpg');
+    background-size: cover;
+    border-bottom: 10px solid #75c9b76e;
+}
+
+.title #mainPage {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.title a{
+    color: #fff;
+}
+
+.title .asanaTitle {
+    margin: 20px;
+    font-size: 45px;
+}
+
+ .asanaTitle p {  
+    line-height: 50px;
+}
+
+.title .asanasubtitle{
+    margin: 20px;
+    font-size: 25px;
+}
+
+.title a span:hover{
+    background-color: #fff;
+    color: #75c9b7;
+    border-radius: 30px;
+    padding: 1px 7px 7px 7px;
+    box-shadow: 0 0 12px 8px #fff;
+}
+
+.container{
+    color:#16123F;
+    padding: 6vw;
+    width: 100%;
+    background-color: #c7ddcc;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container h1{
+    font-size: 35px;
+    padding: 15px 0;
+}
+
+.container .asana{
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.step{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.step .img img{
+    max-width: 900px;
+    width: 100%;
+    max-height: 700px;
+    margin-bottom: 50px;
+    border: 8px solid #fff;
+    padding: 20px;
+    background-color: #75c9b788;
+}
+
+.step li{
+    padding: 15px 0 0 10px ;
+    margin-left: 15px;
+}
