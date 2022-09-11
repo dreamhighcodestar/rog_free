@@ -74,27 +74,27 @@ inputBox.onkeyup = (e)=>{
 
         icon.onclick = () => {
             if (digestive.includes(userData)) {
-                window.open("../html/digestive.html");
+                window.open("../Rog-Free/html/diabetes.html");
             }
 
             else if (heart.includes(userData)) {
-                window.open("../html/heartdisease.html");
+                window.open("../Rog-Free/html/heartdisease.html");
             }
 
             else if (anxiety.includes(userData)) {
-                window.open("../html/depression.html");
+                window.open("../Rog-Free/html/depression.html");
             }
 
             else if (asthma.includes(userData)) {
-                window.open("../html/asthama.html");
+                window.open("../Rog-Free/html/asthama.html");
             }
 
             else if (joint.includes(userData)) {
-                window.open("../html/bodypain.html");
+                window.open("../Rog-Free/html/bodypain.html");
             }
 
             else if (diabetes.includes(userData)) {
-                window.open("../html/diabetes.html");
+                window.open("../Rog-Free/html/diabetes.html");
             }
         }
 
@@ -111,27 +111,27 @@ function select(element){
 
     icon.onclick = () => {
         if (digestive.includes(userData)) {
-            window.open("../html/digestive.html");
+            window.open("../Rog-Free/html/digestive.html");
         }
 
         else if (heart.includes(userData)) {
-            window.open("../html/heartdisease.html");
+            window.open("../Rog-Free/html/heartdisease.html");
         }
 
         else if (anxiety.includes(userData)) {
-            window.open("../html/depression.html");
+            window.open("../Rog-Free/html/depression.html");
         }
 
         else if (asthma.includes(userData)) {
-            window.open("../html/asthama.html");
+            window.open("../Rog-Free/html/asthama.html");
         }
 
         else if (joint.includes(userData)) {
-            window.open("../html/bodypain.html");
+            window.open("../Rog-Free/html/bodypain.html");
         }
 
         else if (diabetes.includes(userData)) {
-            window.open("../html/diabetes.html");
+            window.open("../Rog-Free/html/diabetes.html");
         }
     }
 
