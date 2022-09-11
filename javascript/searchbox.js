@@ -74,7 +74,7 @@ inputBox.onkeyup = (e)=>{
 
         icon.onclick = () => {
             if (digestive.includes(userData)) {
-                window.open("../html/digestive.html");
+                window.open("../Rog-Free/html/digestive.html");
             }
 
             else if (heart.includes(userData)) {
@@ -111,7 +111,7 @@ function select(element){
 
     icon.onclick = () => {
         if (digestive.includes(userData)) {
-            window.open("../html/digestive.html");
+            window.open("../Rog-Free/html/digestive.html");
         }
 
         else if (heart.includes(userData)) {
