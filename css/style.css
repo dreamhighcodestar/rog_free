@@ -39,7 +39,7 @@ nav{
 }
 
 
- .navlinks li {
+.navlinks li {
     padding: 20px 15px;
     white-space:nowrap;
     text-align: center;
@@ -61,7 +61,7 @@ nav{
     position: absolute;
 }
 
- .navlinks .dropdown .dropdown-content {
+.navlinks .dropdown .dropdown-content {
     background-color: #c7ddcc;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -319,24 +319,33 @@ nav{
 
 .footer{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
-    padding:25px 150px;
+    padding:25px 50px;
     font-size: 30px;
 }
 
 .footer a{
-    padding-right: 14px;
+    
+    padding-right: 10px;
     color: #16123f;
 }
 .footer a:visited{
     color: #16123f;
 }
 
+.footer .foot{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 50px;;
+
+}
 .footer p{
+    display: flex;
+    flex-wrap: nowrap;
     font-size: 20px;
     font-weight:400;
-    padding-right: 8px;
+    padding-right: 25px;
     line-height: 1.2;
 }
 
