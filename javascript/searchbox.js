@@ -74,7 +74,7 @@ inputBox.onkeyup = (e)=>{
 
         icon.onclick = () => {
             if (digestive.includes(userData)) {
-                window.open("../Rog-Free/html/diabetes.html");
+                window.open("../Rog-Free/html/digestive.html");
             }
 
             else if (heart.includes(userData)) {
