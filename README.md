@@ -59,5 +59,5 @@ Github Pages was used to deploy the website: <a href="https://willyjin17.github.
 
 # Contributors
 
-Devansh Sahni :&nbsp;
-<a href= "https://github.com/DevanshSahni"> Github </a>
+Willy Jin :&nbsp;
+<a href= "https://github.com/willyjin17"> Github </a>
