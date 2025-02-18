@@ -54,7 +54,7 @@ Github : To save and store the files for the website. </br>
 
 </br>
 
-Github Pages was used to deploy the website: <a href="https://devanshsahni.github.io/Rog-Free/#"> Rog-Free</a>
+Github Pages was used to deploy the website: <a href="https://willyjin17.github.io/Rog-Free/#"> Rog-Free</a>
 
 
 # Contributors
