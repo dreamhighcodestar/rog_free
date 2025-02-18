@@ -60,11 +60,4 @@ Github Pages was used to deploy the website: <a href="https://willyjin17.github.
 # Contributors
 
 Devansh Sahni :&nbsp;
-<a href= "https://github.com/DevanshSahni"> Github </a>   &nbsp;
-<a href= "https://www.linkedin.com/in/devansh-sahni-18a24121b"> LinkedIn </a>
-
-
-
-Deepa Jha : &nbsp;
-<a href= "https://github.com/Deepajha14"> Github </a> &nbsp;
-<a href= "https://www.linkedin.com/in/deepajha14/"> LinkedIn </a>
+<a href= "https://github.com/DevanshSahni"> Github </a>
